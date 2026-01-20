@@ -3,7 +3,6 @@ import {
   Smartphone,
   Palette,
   Cloud,
-  Shield,
   Brain,
   Bot,
   Users,
@@ -40,12 +39,7 @@ const services = [
     description:
       "Cloud Architecture & Migration (AWS, Azure, GCP), Secure Hosting & Server Management, DevOps & CI/CD Automation",
   },
-  {
-    icon: Shield,
-    title: "Cybersecurity & Compliance",
-    description:
-      "Healthcare Data Security & Encryption, HIPAA & Regulatory Compliance, Penetration Testing, Identity Management",
-  },
+
   {
     icon: Brain,
     title: "AI & Machine Learning",

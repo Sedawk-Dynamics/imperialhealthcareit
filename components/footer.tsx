@@ -65,11 +65,7 @@ export function Footer() {
                   Cloud Infrastructure
                 </a>
               </li>
-              <li>
-                <a href="#services" className="text-background/70 hover:text-background transition-colors text-sm">
-                  Cybersecurity
-                </a>
-              </li>
+
               <li>
                 <a href="#services" className="text-background/70 hover:text-background transition-colors text-sm">
                   AI Solutions
@@ -110,14 +106,18 @@ export function Footer() {
               © {new Date().getFullYear()} Imperial Healthcare Systems LLC. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="text-background/70 hover:text-background transition-colors" aria-label="LinkedIn">
-                <Linkedin className="h-5 w-5" />
+              <a
+                href="/terms"
+                className="text-background/70 hover:text-background transition-colors text-sm"
+              >
+                Terms & Conditions
               </a>
-              <a href="#" className="text-background/70 hover:text-background transition-colors" aria-label="Twitter">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-background/70 hover:text-background transition-colors" aria-label="Facebook">
-                <Facebook className="h-5 w-5" />
+              <span className="text-background/40">|</span>
+              <a
+                href="/privacy-policy"
+                className="text-background/70 hover:text-background transition-colors text-sm"
+              >
+                Privacy Policy
               </a>
             </div>
           </div>
